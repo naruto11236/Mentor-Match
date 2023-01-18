@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Profile | MentorMatch</title>
+
+    <link href="default.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body onload="addProfile()">
+<div id="wrapper">
+	<div id="menu-wrapper">
+		<div id="menu" class="container">
+			<ul>
+				<li><a href="javascript:validURL('homepage');">Homepage</a></li>
+                <li><a href="javascript:validURL('feed');">Feed</a></li>
+                <li class="current_page_item"><a href="javascript:validURL('profile');">Profile</a></li>
+                <li><a href="javascript:validURL('logout');">Log Out</a></li>
+			</ul>
+		</div>
+		<!-- end #menu --> 
+        <div id="header-wrapper">
+            <div id="header" class="container">
+                <div id="logo">
+                    <h1>My Profile</h1>
+                </div>
+            </div>
+        </div>
+	</div>
+	
+	<div id="page" class="container">
+		<div id="content"></div>
+	</div>
+</div>
+</body>
+</html>
